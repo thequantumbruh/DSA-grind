@@ -45,6 +45,9 @@ vector<vector<int>> subsets(vector<int>& nums) {
             tmp.insert(tmp.begin(), std::vector<int>(s.begin(), s.end()));
 }
         return tmp;
+    
+    THIS SHOWS HOW IMPORTANT DSA IS TO SOFTWARE SYSTEMS DEVELOPMENTS
+    I look foward to optimizing some of the codes I havw written here.
     }*/
 class Solution {
 public:
@@ -76,7 +79,7 @@ public:
                     
                     tmp_val.erase(tmp_val.begin(), tmp_val.end());
                 }
-                tmp.insert(tmp.end(),tmp1.begin(), tmp1.end()); /*Just this line made me think for hours. used tmp = tmp1 instead*/
+                tmp.insert(tmp.end(),tmp1.begin(), tmp1.end()); /*Just this line made me think for hours. used tmp = tmp1 instead of what is currently used*/
                 tmp1.erase(tmp1.begin(), tmp1.end());
             }
        }
